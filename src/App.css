@@ -1,0 +1,49 @@
+header {
+  background-color: #edeff3;
+  padding: 0px;
+  text-align: center;
+  color: rgb(10, 9, 9);
+  
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.homepage-image {
+  position: relative; /* Allows absolute positioning of children */
+  height: 600px; /* Adjust as needed */
+  margin: 180px 0;
+  padding: 20px; /* Add padding to avoid content touching edges */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start;
+}
+
+.text-container {
+  position: relative; /* Allows positioning of buttons within */
+  max-width: 100%; /* Ensure container doesn't exceed the width */
+}
+
+.main-text {
+  font-size: 3rem; /* Size for the main text */
+  font-weight: bold; /* Optional: make text bold */
+  margin-bottom: 10px; 
+}
+
+.sub-text {
+  font-size: 1rem; /* Size for the subtext */
+  font-weight: normal; /* Optional: normal weight for the subtext */
+  margin-bottom: 20px; /* Space between the main text and subtext */
+}
+
+
+.homepage-image img {
+  position: absolute; /* Position the image absolutely */
+  right: 20px; /* Add some space from the right edge */
+  bottom: 20px; /* Add some space from the bottom edge */
+  max-width: 50%; /* Set an appropriate width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+}
+
